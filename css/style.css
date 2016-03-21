@@ -1,8 +1,55 @@
+
+
 #board {
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
 }
 
 .box {
-  border: 1px solid black;
+  border: 5px solid black;
   height: 150px;
+  padding-top:10px;
+
+}
+
+.col-md-6.col-md-offset-3{
+  font-size:80px;
+  font-family:Helvetica;
+  color:	#00BFFF;
+  text-align:center;
+
+
+
+
+}
+
+
+body {
+  background:url(https://36.media.tumblr.com/83432041e5e3f5c230345c827f8109cd/tumblr_nwh5tpaxpK1qb6erlo1_500.jpg);
+  background-size: contain;
+  background-position: bottom-left;
+	background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color:white;
+
+  }
+
+h1 {
+  font-family:courier;
+  font-weight:bold;
+  font-size: 50px;
+  color:#FE2E2E;
+}
+
+
+
+
+
+.btn {
+ text-align: center;
+ background-color: #000000;
+ border-color: black;
+
+
 }
