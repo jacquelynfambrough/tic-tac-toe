@@ -28,37 +28,39 @@
 
         </div>
       </div>
-      <div class="row">
+    </div>
+      <div class="container">
+        <div class="row">
 
-        <!-- a column represents our game board -->
-        <!-- the `offset` class helps us center the board -->
-        <div class="col-md-6 col-md-offset-3" id="board">
+          <!-- a column represents our game board -->
+          <!-- the `offset` class helps us center the board -->
+          <div class="col-md-offset-3 col-md-6 col-xs-12 " id="board">
 
-          <!-- you can put rows inside of columns! -->
-          <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
-          <div class="row-1">
-            <div class="col-md-4 box"id="box-0"></div>
-            <div class="col-md-4 box"id="box-1"></div>
-            <div class="col-md-4 box"id="box-2"></div>
+            <!-- you can put rows inside of columns! -->
+            <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
+            <div class="row-1">
+              <div class="col-md-4 col-xs-4 box"id="box-0"></div>
+              <div class="col-md-4 col-xs-4 box"id="box-1"></div>
+              <div class="col-md-4 col-xs-4 box"id="box-2"></div>
+            </div>
+            <div class="row-2">
+              <div class="col-md-4 col-xs-4 box" id="box-3"></div>
+              <div class="col-md-4 col-xs-4 box" id="box-4"></div>
+              <div class="col-md-4 col-xs-4 box" id="box-5"></div>
+            </div>
+            <div class="row-3">
+              <div class="col-md-4 col-xs-4 box" id="box-6"></div>
+              <div class="col-md-4 col-xs-4 box" id="box-7"></div>
+              <div class="col-md-4 col-xs-4 box" id="box-8"></div>
+            </div>
           </div>
-          <div class="row-2">
-            <div class="col-md-4 box" id="box-3"></div>
-            <div class="col-md-4 box" id="box-4"></div>
-            <div class="col-md-4 box" id="box-5"></div>
+          <div class="row text-center">
+            <div class="col-md-12 col-xs-12">
+                 <button type="button" class="btn btn-lg btn-info">Reset</button>
+            </div>
           </div>
-          <div class="row-3">
-            <div class="col-md-4 box" id="box-6"></div>
-            <div class="col-md-4 box" id="box-7"></div>
-            <div class="col-md-4 box" id="box-8"></div>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-12">
-               <button type="button" class="btn btn-lg btn-info">Reset</button>
-          </div>
-        </div>
         </div>
       </div>
-    </div>
+
   </body>
 </html>
