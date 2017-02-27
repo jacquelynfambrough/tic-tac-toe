@@ -16,11 +16,23 @@
 .col-md-6.col-md-offset-3{
   font-size:80px;
   font-family:Helvetica;
-  color:	#00BFFF;
+  color:	black;
   text-align:center;
 
+}
 
 
+.player1ScoreBoard {
+ color: #FE2E2E;
+ font-size:20px;
+ background-color:rgba(255, 255, 255, 0.8);
+
+}
+
+.player2ScoreBoard {
+ color: #00BFFF;
+ font-size:20px;
+ background-color:rgba(255, 255, 255, 0.8);
 
 }
 
@@ -37,6 +49,10 @@ body {
   background-color:white;
 
   }
+
+.copyright {
+  color:grey;
+}
 
 #X {
   font-family:courier;
