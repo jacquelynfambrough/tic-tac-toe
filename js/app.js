@@ -8,13 +8,14 @@ $(document).ready(function() {
     $(".box").on("click", function playerPlays(event){
         if(turn%2===0){
           if(!$(this).text()){
-            $(this).html('<span id="X">X</span>');
+            $(this).empty().append('<span id="X">X</span>');
+
             turn+=1;
             }
           }
         else{
           if(!$(this).text()){
-            $(this).html('<span id="O">O</span>');
+            $(this).empty().append('<span id="O">O</span>');
             turn+=1;
           }
         }
