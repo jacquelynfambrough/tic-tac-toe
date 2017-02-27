@@ -24,24 +24,33 @@
 
 }
 
+#tictactitle {
+  text-shadow: 1px 1px 4px yellow;
+}
 
 body {
-  background:url(https://36.media.tumblr.com/83432041e5e3f5c230345c827f8109cd/tumblr_nwh5tpaxpK1qb6erlo1_500.jpg);
+  background:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/16996130_10154935957263930_650257350991528250_n.jpg?oh=237107a0f04c65af0d2f02887fa2584c&oe=5924E20F);
   background-size: contain;
-  background-position: bottom-left;
+  background-position: bottom left;
 	background-attachment: fixed;
   background-repeat: no-repeat;
   background-color:white;
 
   }
 
-h1 {
+#X {
   font-family:courier;
   font-weight:bold;
-  font-size: 50px;
+  font-size: 80px;
   color:#FE2E2E;
 }
 
+#O {
+  font-family:courier;
+  font-weight:bold;
+  font-size: 80px;
+  color:#00BFFF;
+}
 
 
 

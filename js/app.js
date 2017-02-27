@@ -3,16 +3,17 @@ $(document).ready(function() {
   var turn = 2 ;
 
 
+
     $(".box").on("click", function playerPlays(event){
         if(turn%2===0){
           if(!$(this).text()){
-            $(this).text('X');
+            $(this).html('<span id="X">X</span>');
             turn+=1;
             }
           }
         else{
           if(!$(this).text()){
-            $(this).text('O');
+            $(this).html('<span id="O">O</span>');
             turn+=1;
           }
         }
