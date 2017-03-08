@@ -1,15 +1,21 @@
 
 
 #board {
-  margin-top: 15px;
   margin-bottom: 10px;
+  align: center;
+  border: 1px solid black;
 
 }
+ #boardrow {
+   margin-top: 8%;
+ }
 
 .box {
   border: 5px solid black;
-  height: 150px;
-  padding-top:10px;
+  width:33%;
+  height:11vw;
+  padding-bottom:25%;
+  padding-left:10%;
 
 }
 
@@ -25,14 +31,14 @@
 .player1ScoreBoard {
  color: #FE2E2E;
  font-size:20px;
- background-color:rgba(255, 255, 255, 0.8);
+
 
 }
 
 .player2ScoreBoard {
  color: #00BFFF;
  font-size:20px;
- background-color:rgba(255, 255, 255, 0.8);
+
 
 }
 
@@ -41,17 +47,20 @@
 }
 
 body {
-  background:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/16996130_10154935957263930_650257350991528250_n.jpg?oh=237107a0f04c65af0d2f02887fa2584c&oe=5924E20F);
+  background-image:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/16996130_10154935957263930_650257350991528250_n.jpg?oh=237107a0f04c65af0d2f02887fa2584c&oe=5924E20F);
   background-size: contain;
   background-position: bottom left;
 	background-attachment: fixed;
   background-repeat: no-repeat;
+
   background-color:white;
 
   }
 
 .copyright {
   color:grey;
+  margin-bottom:-200px;
+  vertical-align: bottom;
 }
 
 #X {
@@ -71,10 +80,19 @@ body {
 
 
 
-.btn {
+.btn-info {
  text-align: center;
  background-color: #000000;
  border-color: black;
+
+
+}
+
+.btn-danger {
+ text-align: center;
+ background-color: yellow;
+ border-color: red;
+ color: red;
 
 
 }

@@ -31,34 +31,45 @@
         </div>
       </div>
     </div>
-      <div class="container">
-        <div class="row">
+      <div class="container-fluid">
+        <div class="row" id = "boardrow">
 
           <!-- a column represents our game board -->
           <!-- the `offset` class helps us center the board -->
-          <div class="col-md-offset-3 col-md-6 col-sm-12 " id="board">
+          <div class="col-lg-offset-3 col-lg-6  col-sm-12  col-xs-12" id="board">
 
             <!-- you can put rows inside of columns! -->
             <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
+
             <div class="row-1">
-              <div class="col-md-4 col-xs-4 box"id="box-0"></div>
-              <div class="col-md-4 col-xs-4 box"id="box-1"></div>
-              <div class="col-md-4 col-xs-4 box"id="box-2"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box"id= "box-0"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box"id= "box-1"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box"id= "box-2"></div>
             </div>
             <div class="row-2">
-              <div class="col-md-4 col-xs-4 box" id="box-3"></div>
-              <div class="col-md-4 col-xs-4 box" id="box-4"></div>
-              <div class="col-md-4 col-xs-4 box" id="box-5"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-3"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-4"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-5"></div>
             </div>
             <div class="row-3">
-              <div class="col-md-4 col-xs-4 box" id="box-6"></div>
-              <div class="col-md-4 col-xs-4 box" id="box-7"></div>
-              <div class="col-md-4 col-xs-4 box" id="box-8"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-6"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-7"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-8"></div>
+            </div><br><br><br>
+            <div class="row">
+              <div class= "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"><br><br>
+                   <button type="button" class="btn btn-lg btn-info">Reset Board</button>
+              </div>
             </div>
           </div>
+
+
+
+
+
           <!--scoreboard-->
 
-            <div class = "col-md-3 col-sm-12">
+            <div class = "col-md-3 col-sm-12 center-block">
               <div class = "row">
                 <div class = "col-md-6 col-sm-6 col-xs-6 player1ScoreBoard text-center">
                   <div>
@@ -77,19 +88,23 @@
                   <div class = "player2ScoreTotal">
                     0
                   </div>
-                </div>
-              </div>
-          <!--end scoreboard-->
-        </div>
 
-          <div class="row">
-            <div class="col-md-offset-3 col-md-6 col-xs-12">
-                 <button type="button" class="btn btn-lg btn-info">Reset</button>
+                </div>
+                <div class="row">
+                  <div class= "col-md-12 text-center"><br><br>
+                       <br><br><button type="button" class="btn btn-lg btn-danger">Reset Score</button>
+                  </div>
+                </div>
+
+              </div>
             </div>
-            </div>
+          <!--end scoreboard-->
+
+
 
 
       </div>
-   <div class = "copyright text-right">Art - ©2017 Ermsy</div>
+<div class = "copyright text-right">Art - ©2017 Ermsy</div>
   </body>
+
 </html>

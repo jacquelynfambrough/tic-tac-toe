@@ -180,13 +180,18 @@ $(document).ready(function() {
         }
 
     });
-
-  $(".btn").on("click", function resetGame(event){
+  $(".btn-info").on("click", function resetGame(event){
     $(".box").text("");
+    turn = 2;
+
+  });
+
+  $(".btn-danger").on("click", function resetGame(event){
     $(".player1ScoreTotal").text("0");
     $(".player2ScoreTotal").text("0");
+    player1Score = 0;
+    player2Score = 0;
 
-    turn =2;
 
 
   });
