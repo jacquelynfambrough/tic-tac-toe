@@ -3,13 +3,19 @@ $(document).ready(function() {
   var turn = 2 ;
   var player1Score = 0
   var player2Score = 0
+  var p1ScoreBoard = $('.player1ScoreBoard > div > b');
+  var p2ScoreBoard = $('.player2ScoreBoard > div > b');
+  var turnLabel = $('#turn-label');
 
-
+    $(p1ScoreBoard).css('background-color','lime');
+    $(turnLabel).text("Player X's Turn!");
     $(".box").on("click", function playerPlays(event){
         if(turn%2===0){
           if(!$(this).text()){
             $(this).empty().append('<span id="X">X</span>');
-
+            $(p1ScoreBoard).css('background-color','transparent');
+            $(p2ScoreBoard).css('background-color','lime');
+            $(turnLabel).text("Player O's Turn!");
             turn+=1;
             }
           }
@@ -17,6 +23,9 @@ $(document).ready(function() {
           if(!$(this).text()){
             $(this).empty().append('<span id="O">O</span>');
             turn+=1;
+            $(p2ScoreBoard).css('background-color','transparent');
+            $(p1ScoreBoard).css('background-color','lime');
+            $(turnLabel).text("Player X's Turn!");
           }
         }
     });

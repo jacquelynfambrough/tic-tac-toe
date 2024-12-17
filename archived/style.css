@@ -3,59 +3,54 @@
 #board {
   margin-bottom: 10px;
   align: center;
-  border: 1px solid black;
-
 }
- #boardrow {
+
+#boardrow {
    margin-top: 8%;
- }
+}
+
+#turn-label {
+  font-size:20px;
+}
 
 .box {
   border: 5px solid black;
-  width:33%;
-  height:11vw;
-  padding-bottom:25%;
-  padding-left:10%;
-
+  width:200px;
+  aspect-ratio: 1 / 1;
+  text-align:center;
+  display:block;
+  background-color:grey;
 }
 
-.col-md-6.col-md-offset-3{
+.col-md-6.col-md-offset-3 {
   font-size:80px;
   font-family:Helvetica;
   color:	black;
   text-align:center;
-
 }
-
 
 .player1ScoreBoard {
  color: #FE2E2E;
  font-size:20px;
-
-
 }
 
 .player2ScoreBoard {
  color: #00BFFF;
  font-size:20px;
-
-
 }
 
-#tictactitle {
+#game-title {
   text-shadow: 1px 1px 4px yellow;
 }
 
 body {
-  background-image:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/16996130_10154935957263930_650257350991528250_n.jpg?oh=237107a0f04c65af0d2f02887fa2584c&oe=5924E20F);
+  /* background-image:url(); */
   background-size: contain;
   background-position: bottom left;
 	background-attachment: fixed;
   background-repeat: no-repeat;
-
   background-color:white;
-
-  }
+}
 
 .copyright {
   color:grey;
@@ -77,15 +72,10 @@ body {
   color:#00BFFF;
 }
 
-
-
-
 .btn-info {
  text-align: center;
  background-color: #000000;
  border-color: black;
-
-
 }
 
 .btn-danger {
@@ -93,6 +83,4 @@ body {
  background-color: yellow;
  border-color: red;
  color: red;
-
-
 }

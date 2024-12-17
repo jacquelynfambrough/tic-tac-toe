@@ -1,0 +1,100 @@
+
+#gameboard-container {
+   margin-top: 8%;
+ }
+
+
+#gameboard {
+  margin-bottom: 10px;
+  align: center;
+  border: 1px solid red;
+}
+
+
+#turn-label {
+  font-size: 20px;
+}
+
+
+.box {
+  border: 5px solid black;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+  background-color: green;
+}
+
+.col-md-6.col-md-offset-3 {
+  font-size: 80px;
+  font-family: Helvetica;
+  color:black;
+  text-align: center;
+
+
+}
+
+
+.player1ScoreBoard {
+ color: #FE2E2E;
+ font-size: 20px;
+
+
+}
+
+.player2ScoreBoard {
+ color: #00BFFF;
+ font-size: 20px;
+
+
+}
+
+#game-title {
+  text-shadow: 1px 1px 4px yellow;
+}
+
+body {
+  background-size: contain;
+  background-position: bottom left;
+	background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: white;
+
+}
+
+
+#X {
+  font-family: courier;
+  font-weight: bold;
+  font-size: 80px;
+  color: #FE2E2E;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+#O {
+  font-family: courier;
+  font-weight: bold;
+  font-size: 80px;
+  color: #00BFFF;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.btn-info {
+ text-align: center;
+ background-color: #000000;
+ border-color: black;
+
+
+}
+
+.btn-danger {
+ text-align: center;
+ background-color: yellow;
+ border-color: red;
+ color: red;
+
+
+}

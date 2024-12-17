@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- set viewport to device width to allow responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS from CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- link to custom stylesheet (always require after Bootstrap) -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- jQuery from CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- link to custom javascript file (always require after external JS libraries) -->
+    <script src="js/app.js"></script>
+    <link rel="shortcut icon" type="image/png" href="Pics/t-cubed.png" width = "16px" height = "auto"/>
+
+
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-offset-3 col-md-6 col-sm-12">
+          <h1 id="game-title">Tic Tac Toe</h1>
+          <div id="turn-label"></div>
+        </div>
+      </div>
+    </div>
+      <div class="container-fluid">
+        <div class="row" id = "boardrow">
+
+          <!-- a column represents our game board -->
+          <!-- the `offset` class helps us center the board -->
+          <div class="col-lg-offset-3 col-lg-6  col-sm-12  col-xs-12" id="board">
+
+            <!-- you can put rows inside of columns! -->
+            <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
+
+            <div class="row-1">
+              <div class="col-lg-4 col-sm-4 col-xs-4 box"id= "box-0"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box"id= "box-1"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box"id= "box-2"></div>
+            </div>
+            <div class="row-2">
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-3"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-4"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-5"></div>
+            </div>
+            <div class="row-3">
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-6"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-7"></div>
+              <div class="col-lg-4 col-sm-4 col-xs-4 box" id="box-8"></div>
+            </div><br><br><br>
+            <div class="row">
+              <div class= "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"><br><br>
+                   <button type="button" class="btn btn-lg btn-info">Reset Board</button>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <!--scoreboard-->
+
+            <div class = "col-md-3 col-sm-12 center-block">
+              <div class = "row">
+                <div class = "col-md-6 col-sm-6 col-xs-6 player1ScoreBoard text-center">
+                  <div>
+                    <b>Player 1</b>
+                    <hr>
+                  </div>
+                  <div class = "player1ScoreTotal">
+                    0
+                  </div>
+                </div>
+                <div class = "col-md-6 col-sm-6 col-xs-6 player2ScoreBoard text-center">
+                  <div>
+                    <b>Player 2</b>
+                    <hr>
+                  </div>
+                  <div class = "player2ScoreTotal">
+                    0
+                  </div>
+
+                </div>
+                <div class="row">
+                  <div class= "col-md-12 text-center"><br><br>
+                       <br><br><button type="button" class="btn btn-lg btn-danger">Reset Score</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          <!--end scoreboard-->
+
+
+
+
+      </div>
+<div class = "copyright text-right">Art - ©2017 Ermsy</div>
+  </body>
+
+</html>
